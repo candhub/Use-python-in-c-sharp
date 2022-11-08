@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Macad.Common">
+        <HintPath>..\..\..\Downloads\Macad_dll\Macad.Common.dll</HintPath>
+      </Reference>
+      <Reference Include="Macad.Core">
+        <HintPath>..\..\..\Downloads\Macad_dll\Macad.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="Macad.Interaction">
+        <HintPath>..\..\..\Downloads\Macad_dll\Macad.Interaction.dll</HintPath>
+      </Reference>
+      <Reference Include="Macad.Managed">
+        <HintPath>..\..\..\Downloads\Macad_dll\Macad.Managed.dll</HintPath>
+      </Reference>
+      <Reference Include="Macad.Occt">
+        <HintPath>..\..\..\Downloads\Macad_dll\Macad.Occt.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="IronPython" Version="3.4.0-beta1" />
+    </ItemGroup>
+
+</Project>
