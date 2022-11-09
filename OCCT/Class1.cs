@@ -1,6 +1,11 @@
 ﻿using Macad.Core.Shapes;
 using Macad.Core.Topology;
 
+using Macad.Core.Drawing;
+using Macad.Exchange.Dxf;
+using Macad.Exchange.Svg;
+using Macad.Occt;
+
 namespace CD;
 
 public class Class1
@@ -26,10 +31,12 @@ public class Class1
         // Create Body and add to model
         var body = Body.Create(sketch);
         var model = new Model();
-        model.AddChild(body);
+        model.Add(body);
 
         // Extrude
         var extrude = Extrude.Create(body);
         extrude.Depth = 100.0;
+
+        DxfSketchExporter.Export(sketch, DxfVersion.Latest, DxfFlags.None);
     }
 }

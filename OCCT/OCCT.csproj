@@ -8,25 +8,27 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Reference Include="Macad">
+        <HintPath>..\..\..\Downloads\Macad dll\Macad.dll</HintPath>
+      </Reference>
       <Reference Include="Macad.Common">
-        <HintPath>..\..\..\Downloads\Macad_dll\Macad.Common.dll</HintPath>
+        <HintPath>..\..\..\Downloads\Macad dll\Macad.Common.dll</HintPath>
       </Reference>
       <Reference Include="Macad.Core">
-        <HintPath>..\..\..\Downloads\Macad_dll\Macad.Core.dll</HintPath>
+        <HintPath>..\..\..\Downloads\Macad dll\Macad.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="Macad.Exchange">
+        <HintPath>..\..\..\Downloads\Macad dll\Macad.Exchange.dll</HintPath>
       </Reference>
       <Reference Include="Macad.Interaction">
-        <HintPath>..\..\..\Downloads\Macad_dll\Macad.Interaction.dll</HintPath>
+        <HintPath>..\..\..\Downloads\Macad dll\Macad.Interaction.dll</HintPath>
       </Reference>
       <Reference Include="Macad.Managed">
-        <HintPath>..\..\..\Downloads\Macad_dll\Macad.Managed.dll</HintPath>
+        <HintPath>..\..\..\Downloads\Macad dll\Macad.Managed.dll</HintPath>
       </Reference>
       <Reference Include="Macad.Occt">
-        <HintPath>..\..\..\Downloads\Macad_dll\Macad.Occt.dll</HintPath>
+        <HintPath>..\..\..\Downloads\Macad dll\Macad.Occt.dll</HintPath>
       </Reference>
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Include="IronPython" Version="3.4.0-beta1" />
     </ItemGroup>
 
 </Project>
