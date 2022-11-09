@@ -4,8 +4,25 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+        <IsPackable>false</IsPackable>
+
+        <RootNamespace>CD</RootNamespace>
     </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentAssertions" Version="6.8.0" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+        <PackageReference Include="xunit" Version="2.4.1" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MaCad\MaCad.csproj" />
+    </ItemGroup>
 
     <ItemGroup>
       <Reference Include="Macad">
@@ -28,6 +45,15 @@
       </Reference>
       <Reference Include="Macad.Occt">
         <HintPath>..\..\..\Downloads\Macad dll\Macad.Occt.dll</HintPath>
+      </Reference>
+      <Reference Include="Macad.Presentation">
+        <HintPath>..\..\..\Downloads\Macad dll\Macad.Presentation.dll</HintPath>
+      </Reference>
+      <Reference Include="Macad.Resources">
+        <HintPath>..\..\..\Downloads\Macad dll\Macad.Resources.dll</HintPath>
+      </Reference>
+      <Reference Include="Test.Utils">
+        <HintPath>..\..\..\Downloads\Macad dll\Test.Utils.dll</HintPath>
       </Reference>
     </ItemGroup>
 

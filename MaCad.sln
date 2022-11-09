@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCCT", "OCCT\OCCT.csproj", "{57174C12-5A0B-4823-ABA8-2BCF2F16AD29}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaCad", "MaCad\MaCad.csproj", "{57174C12-5A0B-4823-ABA8-2BCF2F16AD29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCCT.Test", "OCCT.Test\OCCT.Test.csproj", "{864DCF78-2343-49C5-9161-A20C3CD03123}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaCad.Test", "MaCad.Test\MaCad.Test.csproj", "{864DCF78-2343-49C5-9161-A20C3CD03123}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
